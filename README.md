@@ -1,7 +1,7 @@
 # LuxeCart - Modern E-Commerce Website
 
-![About Screenshot](./assets/preview_About.jpg)
-![product Screenshot](./assets/preview_Products.jpg)
+![About Screenshot](.public/assets/preview_About.jpg)
+![product Screenshot](.public/assets/preview_Products.jpg)
 
 
 LuxeCart is a modern, responsive, and high-performance e-commerce website built with Next.js, TypeScript, and Tailwind CSS.  
