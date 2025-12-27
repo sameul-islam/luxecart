@@ -119,8 +119,7 @@ function getColorHex(name: string) {
             onMouseEnter={() => setIsZoomed(true)}
             onMouseLeave={() => setIsZoomed(false)}
             onTouchStart={onTouchStart}
-            className="relative w-full bg-[#dfe6e9] cursor-zoom-in  overflow-hidden border border-gray-400 "
-            style={{ height: "620px" }}
+            className="relative w-full bg-[#dfe6e9] cursor-zoom-in  overflow-hidden border border-gray-400 h-[400px] md:h-[620px]"
           >
             {/* main image - using Next/Image via layout 'fill' behaviour */}
             <div className="w-full h-full">
