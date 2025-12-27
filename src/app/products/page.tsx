@@ -252,7 +252,7 @@ export default function Page() {
   }, [products, selectedCategory, selectedSizes, selectedColors, sort])
 
   return (
-    <main className="min-h-screen mt-16 md:mt-24 py-10 px-4 md:px-8 font-Outfit">
+    <main className="min-h-screen mt-16 md:mt-24 py-10 px-1 sm:px-3 md:px-8 font-Outfit">
       <div className="w-[96%] md:w-[94%] mx-auto flex flex-col gap-8">
         {/* top row: count + sort */}
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -281,7 +281,7 @@ export default function Page() {
             />
           </div>
           <div className="flex-1">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-1.5 sm:gap-2 md:gap-4 lg:gap-6">
               {filtered.map((p) => (
                 <ProductCard key={p.id} product={p} />
               ))}

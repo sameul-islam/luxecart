@@ -20,13 +20,12 @@ export default function ProductCard({ product }: Props) {
     <article className="group overflow-hidden">
       <div className="relative">
         {/* two images, swap on hover */}
-        <div className="w-full h-[430px] sm:h-[470px] lg:h-[430px] bg-[#dfe6e9] overflow-hidden relative cursor-pointer">
+        <div className="w-full h-[270px] sm:h-[470px] lg:h-[430px] bg-[#dfe6e9] overflow-hidden relative cursor-pointer">
           <Link href={`/product/${product.id}`}>
           <Image
             src={front}
             alt={product.name}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             style={{ objectFit: "contain" }}
             className="object-contain  transition-opacity duration-500 ease-in-out group-hover:opacity-0"
             loading="lazy"
@@ -35,7 +34,6 @@ export default function ProductCard({ product }: Props) {
             src={hoverImg}
             alt={product.name + " - alt"}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             style={{ objectFit: "contain" }}
             className="object-contain absolute inset-0 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
             loading="lazy"
