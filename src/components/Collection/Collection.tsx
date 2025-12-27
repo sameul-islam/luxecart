@@ -55,14 +55,14 @@ const Collection = () => {
             <Image
               src={cat.imageDefault}
               alt={cat.title}
-              className="object-contain bg-[#dfe6e9] w-full h-[520px] sm:h-[800px] md:h-[600px] transition-opacity duration-700 ease-in-out group-hover:opacity-0"
+              className="object-contain bg-[#dfe6e9] w-full h-[450px] sm:h-[650px] md:h-[600px] transition-opacity duration-700 ease-in-out group-hover:opacity-0"
             />
 
             {/* Hover Image */}
             <Image
               src={cat.imageHover}
               alt={cat.title}
-              className="object-contain bg-[#dfe6e9] w-full h-[520px] sm:h-[800px] md:h-[600px] absolute top-0 left-0 transition-opacity duration-700 ease-in-out opacity-0 group-hover:opacity-100"
+              className="object-contain bg-[#dfe6e9] w-full h-[450px] sm:h-[650px] md:h-[600px] absolute top-0 left-0 transition-opacity duration-700 ease-in-out opacity-0 group-hover:opacity-100"
             />
             
 

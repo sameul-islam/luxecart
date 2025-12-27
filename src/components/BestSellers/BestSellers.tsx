@@ -79,14 +79,14 @@ const BestSellers = () => {
             <Image
               src={product.imgDefault}
               alt={product.name}
-              className="w-full h-[520px] sm:h-[700px] md:h-[620px] object-contain bg-[#dfe6e9] transition-opacity duration-700 ease-in-out group-hover:opacity-0"
+              className="w-full h-[430px] sm:h-[550px] md:h-[620px] object-contain bg-[#dfe6e9] transition-opacity duration-700 ease-in-out group-hover:opacity-0"
             />
 
             {/* Hover Image */}
             <Image
               src={product.imgHover}
               alt={product.name}
-              className="absolute top-0 left-0 w-full h-[520px] md:h-[620px] bg-[#dfe6e9] object-contain opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100"
+              className="absolute top-0 left-0 w-full h-[430px] sm:h-[550px] md:h-[620px] bg-[#dfe6e9] object-contain opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100"
             />
             </Link>
 
